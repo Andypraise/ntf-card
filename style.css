@@ -65,12 +65,14 @@ main {
 .description h1 {
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  font-size: 20px;
 }
 .description h1:hover {
   color: hsl(178, 100%, 50%);
 }
 .description p {
   color: hsl(0, 0%, 100%);
+  font-size: 15px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -79,6 +81,7 @@ main {
   justify-content: space-between;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 15px;
 }
 .price {
   display: flex;
@@ -107,6 +110,7 @@ main {
   margin-top: 1rem;
   gap: 10px;
   color: hsl(0, 0%, 100%);
+  font-size: 15px;
 }
 .author img {
   width: 30px;
